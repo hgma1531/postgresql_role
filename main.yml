@@ -1,5 +1,6 @@
-postgresql_databases:
-  - name: example_db
-postgresql_users:
-  - name: example_user
-    password: supersecure
+- hosts: all
+  become: yes
+  vars_files:
+    - vars/main.yml
+  roles:
+    - geerlingguy.postgresql
