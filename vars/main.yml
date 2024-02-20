@@ -1,5 +1,5 @@
 postgresql_databases:
-  - name: example_db
+  - name: matest
 postgresql_users:
-  - name: example_user
-    password: supersecure
+  - name: matest_user
+    password: matest_user00!
