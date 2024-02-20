@@ -1,6 +1,6 @@
 ---
 # RHEL/CentOS only. Set a repository to use for PostgreSQL installation.
-postgresql_enablerepo: ""
+postgresql_enablerepo: "https://download.postgresql.org/pub/repos/yum/reporpms/EL-8-x86_64/pgdg-redhat-repo-latest.noarch.rpm"
 
 # Set postgresql state when configuration changes are made. Recommended values:
 # `restarted` or `reloaded`
